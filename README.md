@@ -10,6 +10,7 @@ A python script to read sensor data on a Linux machine and insert it into an Inf
   - `influxdb`
 
 ## Available Config Options
+The script looks for `monitor.ini` in the root folder
 ```
 [InfluxDB]
 host = localhost
