@@ -1,13 +1,16 @@
 # Linux InfluxDB Monitor
-A python script to read sensor data on a Linux machine and insert it into an InfluxDB.
+A python script to read sensor data and insert it into an InfluxDB server.
 
 ## Requirements
 - InfluxDB
-- Linux program `lm-sensors`
 - Python Modules:
   - `configparser`
   - `subprocess`
   - `influxdb`
+### Linux Requirements
+- Program `lm-sensors`
+### Windows Requirements
+- Python Module `wmi`
 
 ## Available Config Options
 The script looks for `monitor.ini` in the root folder
